@@ -1,4 +1,4 @@
-class Popup {
+export default class Popup {
   constructor(cardList, cardObject, validator, popupParams, api) {
 
     this.cardList = cardList;

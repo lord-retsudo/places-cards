@@ -1,4 +1,6 @@
-class CardList extends Card {
+import Card from './card.js';
+
+export default class CardList extends Card {
     constructor (container, popupImage) {
         super();
         this.container = container;       

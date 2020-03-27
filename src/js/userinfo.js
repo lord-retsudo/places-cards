@@ -1,4 +1,4 @@
-class UserInfo {
+export default class UserInfo {
   // Можно лучше -- используйте деструктуризацию
 
   //Я попробовал, почему-то не получается у меня деструктуризация. Т.е. запись constructor ({userName, userAbout, userAvatar, userInfoForm}) {

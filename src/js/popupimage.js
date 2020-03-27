@@ -1,4 +1,4 @@
-class PopupImage {
+export default class PopupImage {
     constructor (popupImageParams) {
         
         this.popupImage = popupImageParams.popupImage;

@@ -1,4 +1,4 @@
-class PopupProfile {
+export default class PopupProfile {
   constructor(validator, objectUserInfo, popupProfileParams, api) {
 
     this.popupProfile = popupProfileParams.popupProfile;
