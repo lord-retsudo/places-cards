@@ -28,8 +28,8 @@ Sprint11 for Yandex Prarktikum
 Скопировать файлы проекта локально. 
 
 Установить пакеты:
-	npm i webpack --save-dev	
-        npm i webpack-cli --save-dev	
+- npm i webpack --save-dev	
+- npm i webpack-cli --save-dev	
 	npm i webpack-dev-server --save-dev
 	npm i babel-loader --save-dev
 	npm i @babel/cli --save-dev	
