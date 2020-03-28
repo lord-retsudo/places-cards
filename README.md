@@ -1,4 +1,4 @@
-# Places Cards  v0.0.2
+# Places Cards  v0.0.3
 Sprint11 for Yandex Prarktikum
 
 # GitHub
