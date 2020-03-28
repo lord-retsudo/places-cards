@@ -1,3 +1,4 @@
+# Places Cards  v0.0.2
 Sprint11 for Yandex Prarktikum
 
 # GitHub
@@ -24,32 +25,32 @@ Sprint11 for Yandex Prarktikum
 
 ### Installation 
 
-- Скопировать файлы проекта локально. 
+Скопировать файлы проекта локально. 
 
-- Установить пакеты:
-	npm i webpack --save-dev
-        npm i webpack-cli --save-dev
-	npm i webpack-dev-server --save-dev
-	npm i babel-loader --save-dev
-	npm i @babel/cli --save-dev
-	npm i @babel/core --save-dev
-	npm i @babel/preset-env --save-dev
-	npm i core-js@3.4.1 --save 
-        npm install --save babel-polyfill
-        npm i mini-css-extract-plugin --save-dev
-	npm i css-loader --save-dev
-	npm install html-webpack-plugin --save-dev
-	npm i webpack-md5-hash --save-dev
-	npm i postcss-loader --save-dev
-	npm i autoprefixer --save-dev
-	npm i cssnano --save-dev
-	npm install gh-pages --save-dev
-	npm install --save-dev cross-env
-	npm i style-loader --save-dev 
-	npm i optimize-css-assets-webpack-plugin --save-dev 
+Установить пакеты:
+	- npm i webpack --save-dev
+        - npm i webpack-cli --save-dev
+	- npm i webpack-dev-server --save-dev
+	- npm i babel-loader --save-dev
+	- npm i @babel/cli --save-dev
+	- npm i @babel/core --save-dev
+	- npm i @babel/preset-env --save-dev
+	- npm i core-js@3.4.1 --save 
+        - npm install --save babel-polyfill
+        - npm i mini-css-extract-plugin --save-dev
+	- npm i css-loader --save-dev
+	- npm install html-webpack-plugin --save-dev
+	- npm i webpack-md5-hash --save-dev
+	- npm i postcss-loader --save-dev
+	- npm i autoprefixer --save-dev
+	- npm i cssnano --save-dev
+	- npm install gh-pages --save-dev
+	- npm install --save-dev cross-env
+	- npm i style-loader --save-dev 
+	- npm i optimize-css-assets-webpack-plugin --save-dev 
 
-- Запустить сборку:
-	npm run dev	
-	npm run build
-        npm run deploy
+Запустить сборку:
+	- npm run dev	
+	- npm run build
+        - npm run deploy
 
