@@ -7,6 +7,7 @@ const MiniCssExtractPlugin = require("mini-css-extract-plugin"); // добавили пла
 
 const OptimizeCssAssetsPlugin = require('optimize-css-assets-webpack-plugin');
 const isDev = process.env.NODE_ENV === 'development';
+const serverUrl = NODE_ENV === 'development' ? 'http://lord-retsudo.github.io/places-cards' : 'https://lord-retsudo.github.io/places-cards';
 
 module.exports = {
   entry: { main: './src/index.js' },
