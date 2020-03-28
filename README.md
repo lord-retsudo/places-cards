@@ -9,15 +9,14 @@ Sprint11 for Yandex Prarktikum
 
 ## Getting Started
 
-Для работы проекта необходимо сделать следующее.
-
+Р”Р»СЏ СЂР°Р±РѕС‚С‹ РїСЂРѕРµРєС‚Р° РЅРµРѕР±С…РѕРґРёРјРѕ СЃРґРµР»Р°С‚СЊ СЃР»РµРґСѓСЋС‰РµРµ.
 ### Prerequisites
 
-Пакеты NPM, которые используются в проекте:
+РџР°РєРµС‚С‹ NPM, РєРѕС‚РѕСЂС‹Рµ РёСЃРїРѕР»СЊР·СѓСЋС‚СЃСЏ РІ РїСЂРѕРµРєС‚Рµ:
 - [Babel CLI](https://babeljs.io/docs/en/babel-cli#docsNav).
 - [Babel Core](https://babeljs.io/docs/en/babel-core).
 - [Babel Preset Evnvironment](https://babeljs.io/docs/en/babel-preset-env#docsNav).
-- [Сore JS](https://github.com/zloirock/core-js#readme).
+- [Г‘ore JS](https://github.com/zloirock/core-js#readme).
 - [PostCSS](https://postcss.org/).
 - [Define plugin](https://webpack.js.org/plugins/define-plugin/).
 - [Style loader](https://github.com/webpack-contrib/style-loader).
@@ -25,9 +24,9 @@ Sprint11 for Yandex Prarktikum
 
 ### Installation 
 
-Скопировать файлы проекта локально. 
+РЎРєРѕРїРёСЂРѕРІР°С‚СЊ С„Р°Р№Р»С‹ РїСЂРѕРµРєС‚Р° Р»РѕРєР°Р»СЊРЅРѕ.  
 
-Установить пакеты:
+РЈСЃС‚Р°РЅРѕРІРёС‚СЊ РїР°РєРµС‚С‹:
 - npm i webpack --save-dev
 - npm i webpack-cli --save-dev
 - npm i webpack-dev-server --save-dev
@@ -49,7 +48,7 @@ Sprint11 for Yandex Prarktikum
 - npm i style-loader --save-dev 
 - npm i optimize-css-assets-webpack-plugin --save-dev 
 
-Запустить сборку:
+Р—Р°РїСѓСЃС‚РёС‚СЊ СЃР±РѕСЂРєСѓ:
 - npm run dev	
 - npm run build
 - npm run deploy
