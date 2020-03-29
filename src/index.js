@@ -50,12 +50,13 @@ import PopupProfile from './js/popupprofile.js'
   const popupImage = new PopupImage(popupImageParams);
   popupImage.setListeners();
 
+  const serverUrl = process.env.NODE_ENV === 'development' ? 'http://praktikum.tk/cohort8' : 'https://praktikum.tk/cohort8';
+
   const api = new Api({
-    baseUrl: 'https://praktikum.tk/cohort8',
-    headers: {
-      // А чем content-type провинился?)))
-      authorization: '3a29d4af-5c13-4fe8-ae79-6f88e9b7cc60'//,
-      //'Content-Type': 'application/json'
+    baseUrl: serverUrl, 
+    headers: {      
+      authorization: '3a29d4af-5c13-4fe8-ae79-6f88e9b7cc60',
+      'Content-Type': 'application/json'
     }
   });
 
@@ -66,7 +67,7 @@ import PopupProfile from './js/popupprofile.js'
       objectUserInfo.initUserInfo(result);
     })
     .catch((err) => {
-      console.log('ошибка передачи данных с сервера: ' + err);
+      console.log('РѕС€РёР±РєР° РїРµСЂРµРґР°С‡Рё РґР°РЅРЅС‹С… СЃ СЃРµСЂРІРµСЂР°: ' + err);
     });
 
   const cardList = new CardList(placesList, popupImage);
@@ -76,7 +77,7 @@ import PopupProfile from './js/popupprofile.js'
       cardList.render(result);
     })
     .catch((err) => {
-      console.log('ошибка передачи данных с сервера: ' + err);
+      console.log('РѕС€РёР±РєР° РїРµСЂРµРґР°С‡Рё РґР°РЅРЅС‹С… СЃ СЃРµСЂРІРµСЂР°: ' + err);
     });
 
   const popupCard = new Card();
